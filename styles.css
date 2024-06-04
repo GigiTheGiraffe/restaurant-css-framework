@@ -1,0 +1,35 @@
+.bg-vanilla {
+    background-color: #EAE2B7;
+}
+
+.bg-red {
+    background-color: #CE2727;
+}
+
+.bg-card {
+    background-color: #FED686;
+}
+
+header, footer {
+    background-color: #FCBF49;
+}
+
+.text-blue {
+    color:#003049;
+}
+
+.text-red {
+    color:#CE2727;
+}
+
+body {
+    font-family: Almarai, Helvetica, sans-serif;
+}
+
+.jumbotron {
+    margin-top: 1rem;
+    padding: 2rem 1rem;
+    background-color: #F77F00;
+    border-radius: .3rem;
+    word-break:keep-all;
+  }
