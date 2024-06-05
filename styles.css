@@ -61,4 +61,6 @@ body {
     border-radius: .3rem;
     word-break:keep-all;
   }
-
+  .card {
+  width: 35rem;
+}
