@@ -10,8 +10,8 @@
     <link href="styles.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a4b4ca04e3.js" crossorigin="anonymous"></script>
 </head>
-<body class="bg-vanilla text-blue mb-0">
-    <header class="sticky-top">
+<body class="bg-vanilla text-blue">
+    <header class="fixed-top">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
@@ -40,8 +40,62 @@
             </div>
         </nav>
     </header>
-    <main>
-
+    <main class="postion-relative m-lg-4">
+        <div id="carouselLaCantine" class="container-xl carousel slide position-absolute top-50 start-50 translate-middle">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselLaCantine" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselLaCantine" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselLaCantine" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselLaCantine" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner container-fluid">
+              <div class="carousel-item active">
+                <div class="container">
+                    <div class="row gy-2 mb-2">
+                      <img class="col-4 img-fluid rounded-5" src="./images/franchiseUne.webp" alt="Premier franchisé de La Cantine">
+                      <img class="col-4 img-fluid rounded-5" src="./images/clients.webp" alt="Clients de La Cantine heureux">
+                      <img class="col-4 img-fluid rounded-5" src="./images/franchiseDeux.webp" alt="Deuxième franchisé de La Cantine">
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container-fluid">
+                    <div class="row gy-2 mb-2">
+                      <img class="col-4 rounded-5 img-fluid" src="./images/cubes.webp" alt="Cubes au sirop de liège">
+                      <img class="col-4 rounded-5 img-fluid" src="./images/paté.webp" alt="Paté de campagne">
+                      <img class="col-4 rounded-5" src="./images/gaufre.webp" alt="Gaufre de Liège">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container-fluid">
+                    <div class="row gy-2 mb-2">
+                      <img class="col-4 rounded-5 img-fluid" src="./images/croquette.webp" alt="Croquettes aux crevettes grises">
+                      <img class="col-4 rounded-5 img-fluid" src="./images/moules.webp" alt="Moules-frites">
+                      <img class="col-4 rounded-5 img-fluid" src="./images/carbonnade.webp" alt="Carbonnade flamande">
+                    </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container-fluid">
+                    <div class="row gy-2">
+                      <img class="col-4 rounded-5 img-fluid" src="./images/tartare.webp" alt="Américain préparé">
+                      <img class="col-4 rounded-5 img-fluid" src="./images/trapiste.webp" alt="Bière trapiste">
+                      <img class="col-4 rounded-5 img-fluid" src="./images/waterzooi.webp" alt="Waterzooi au poulet">
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselLaCantine" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">En arrière</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselLaCantine" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Suivant</span>
+            </button>
+          </div>
     </main>
     <footer class="container-fluid pt-md-1 pt-2 pb-1 fixed-bottom">
         <div class="row align-items-center justify-content-evenly">
