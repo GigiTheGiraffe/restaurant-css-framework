@@ -42,7 +42,45 @@
         </nav>
     </header>
     <main>
-
+        <section class="container">
+            <h1 class="text-center fst-italic text-decoration-underline mt-3 mb-2">Nous contacter</h1>
+            <p>Nous vous répondrons le plus rapidement possible</p>
+        <form>
+            <div class="row mb-3 col-12">
+            <div class="col-6">
+                <label for="InputFirstname" class="form-label">Prénom</label>
+                <input type="password" class="form-control" id="InputFirstname">
+              </div>
+              <div class="col-6">
+                <label for="InputLastname" class="form-label">Nom</label>
+                <input type="password" class="form-control" id="InputLastname">
+              </div>
+            <div class="col-12">
+              <label for="InputEmail" class="form-label">Adresse email</label>
+              <input type="email" class="form-control" id="InputEmail" aria-describedby="confidentialitéEmail">
+              <div id="confidentialitéEmail" class="text-blue form-text">Votre email ne sera pas partagé avec des services tiers</div>
+            </div>
+            <select class="form-select mb-3 col-12" aria-label="Selectionnez votre choix">
+                <option selected>Pour quelles raisons nous contactez-vous?</option>
+                <option value="1">Réservation</option>
+                <option value="2">Service traiteur</option>
+                <option value="3">Plainte</option>
+                <option value="4">Don</option>
+                <option value="5">Partie de lol?</option>
+                <option value="6">Autre</option>
+              </select>
+              <div class="col-12">
+                <label for="zoneTexte" class="form-label">Veuillez-nous expliquer votre choix.</label>
+                <textarea class="form-control" id="ZoneTexte" rows="5"></textarea>
+              </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="marketing">
+              <label class="form-check-label" for="marketing">J'accepte de recevoir des offres promotionnelles de la part de La Cantine.</label>
+            </div>
+            <button type="submit" class=" col-2 btn btn-danger">Envoyer</button>
+        </div>
+          </form>
+          </section> 
     </main>
     <footer class="container-fluid pt-md-1 pt-2 pb-1 fixed-bottom">
         <div class="row align-items-center justify-content-evenly">
