@@ -11,7 +11,7 @@
   <script src="https://kit.fontawesome.com/a4b4ca04e3.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="bg-vanilla text-blue">
+<body class="bg-vanilla text-blue mb-5 pb-5">
   <header class="sticky-top">
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
@@ -41,80 +41,82 @@
       </div>
     </nav>
   </header>
-  <main class="my-lg-4 h-100">
+  <main class="my-lg-4">
+    <div class="row m-2">
     <article class="container-fluid text-center">
-      <div class="row m-2">
     <h1 class="fst-italic my-md-5 text-decoration-underline">Galerie</h1>
-      </div>
   </article>
-    <div id="carouselLaCantine"
-      class="container-fluid carousel slide position-absolute top-50 start-50 translate-middle">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselLaCantine" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselLaCantine" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselLaCantine" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselLaCantine" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  <div id="carouselLaCantine" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselLaCantine" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselLaCantine" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselLaCantine" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselLaCantine" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+      <picture class="container">
+        <div class="row">
+        <img src="./images/franchiseUne.webp" class="col-md-4 mb-2 mt-md-5" alt="Premier franchisé de La Cantine">
+        <img src="./images/clients.webp" class="col-md-4 mb-2 mt-md-5" alt="Clients de La Cantine heureux">
+        <img src="./images/franchiseDeux.webp" class="col-md-4 mb-2 mt-md-5" alt="Deuxième franchisé de La Cantine">
       </div>
-      <div class="carousel-inner container-fluid">
-        <div class="carousel-item active">
-          <div class="container-fluid">
-            <div class="row mb-2">
-              <img class="col-10 col-sm-4 rounded-5 m-auto mb-2" src="./images/franchiseUne.webp"
-                alt="Premier franchisé de La Cantine">
-              <img class="col-6 col-sm-4 col-md-4 rounded-5 m-auto mt-2 mb-2" src="./images/clients.webp"
-                alt="Clients de La Cantine heureux">
-              <img class="col-6 col-sm-4 rounded-5 m-auto mt-2" src="./images/franchiseDeux.webp"
-                alt="Deuxième franchisé de La Cantine">
-            </div>
-          </div>
+      </picture>
+        <div class="carousel-caption d-none d-md-block bg-black bg-opacity-75 rounded-pill text-white">
+          <h5>Nos Franchisés et Clients Heureux</h5>
+          <p>Découvrez l'enthousiasme de nos franchisés et la satisfaction de nos clients.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="container-fluid">
-          <div class="row mb-2">
-            <img class="col-10 col-sm-4 rounded-5 m-auto mb-2" src="./images/cubes.webp"
-              alt="Cubes au sirop de liège">
-            <img class="col-6 col-sm-4 rounded-5 m-auto mt-2 mb-2" src="./images/paté.webp"
-              alt="Paté de campagne">
-            <img class="col-6 col-sm-4 rounded-5 m-auto mt-2" src="./images/gaufre.webp" alt="Gaufre de Liège">
-          </div>
+        <picture class="container">
+          <div class="row">
+          <img src="./images/cubes.webp" class="col-md-4 mb-2 mt-md-5" alt="Cubes au sirop de liège">
+          <img src="./images/paté.webp" class="col-md-4 mb-2 mt-md-5" alt="Paté de campagne">
+          <img src="./images/gaufre.webp" class="col-md-4 mb-2 mt-md-5" alt="Gaufre de Liège">
+        </div>
+        </picture>
+        <div class="carousel-caption d-none d-md-block bg-black bg-opacity-75 rounded-pill text-white">
+          <h5>Délices Sucrés et Gourmandises</h5>
+          <p>Savourez nos cubes de sirop de Liège, notre pâté de campagne sur pain et nos gaufres de Liège.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="container-fluid">
-          <div class="row mb-2">
-            <img class="col-10 col-sm-4 rounded-5 m-auto mb-2" src="./images/croquette.webp"
-              alt="Croquettes aux crevettes grises">
-            <img class="col-6 col-sm-4 rounded-5 m-auto mt-2 mb-2" src="./images/moules.webp"
-              alt="Moules-frites">
-            <img class="col-6 col-sm-4 rounded-5 m-auto mt-2" src="./images/carbonnade.webp"
-              alt="Carbonnade flamande">
-          </div>
+        <picture class="container">
+          <div class="row">
+          <img src="./images/croquette.webp" class="col-md-4 mb-2 mt-md-5" alt="Croquettes aux crevettes grises">
+          <img src="./images/moules.webp" class="col-md-4 mb-2 mt-md-5" alt="Moules-frites">
+          <img src="./images/carbonnade.webp" class="col-md-4 mb-2 mt-md-5" alt="Carbonnade flamande">
+        </div>
+        </picture>
+        <div class="carousel-caption d-none d-md-block bg-black bg-opacity-75 rounded-pill text-white">
+          <h5>Saveurs Traditionnelles Belges</h5>
+          <p>Dégustez nos croquettes aux crevettes grises, nos moules-frites et notre carbonnade flamande.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="container-fluid">
-          <div class="row gy-2">
-            <img class="col-10 col-sm-4 rounded-5 m-auto mb-2" src="./images/tartare.webp"
-              alt="Américain préparé">
-            <img class="col-6 col-sm-4 rounded-5 m-auto mt-2 mb-2" src="./images/trapiste.webp"
-              alt="Bière trapiste">
-            <img class="col-6 col-sm-4 rounded-5 m-auto mt-2" src="./images/waterzooi.webp"
-              alt="Waterzooi au poulet">
-          </div>
+        <picture class="container">
+          <div class="row">
+          <img src="./images/tartare.webp" class="col-md-4 mb-2 mt-md-5" alt="Américain préparé">
+          <img src="./images/trapiste.webp" class="col-md-4 mb-2 mt-md-5" alt="Bière trapiste">
+          <img src="./images/waterzooi.webp" class="col-md-4 mb-2 mt-md-5" alt="Waterzooi au poulet">
+        </div>
+        </picture>
+        <div class="carousel-caption d-none d-md-block bg-black bg-opacity-75 rounded-pill text-white">
+          <h5>Spécialités et Boissons Belges</h5>
+          <p>Appréciez notre filet américain, notre bière trappiste et notre waterzooi de poulet.</p>
         </div>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselLaCantine" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">En arrière</span>
+      <span class="visually-hidden">Previous</span>
     </button>
     <button class="carousel-control-next" type="button" data-bs-target="#carouselLaCantine" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Suivant</span>
+      <span class="visually-hidden">Next</span>
     </button>
-    </div>
+  </div>
+</div>
   </main>
   <footer class="container-fluid pt-md-1 pt-2 pb-1 fixed-bottom">
     <div class="row align-items-center justify-content-evenly">
