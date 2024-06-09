@@ -5,13 +5,13 @@
 ## Liens    
    
 -Lien [vers le site](https://gigithegiraffe.github.io/restaurant-css-framework/)   
--Site fictif pour une franchise, ***La Cantine***, de restauration proposant des plats belges. 
+-Création du frontend d'un site fictif pour une franchise, ***La Cantine***, de restauration proposant des plats belges. 
     
 ---   
     
 ## But   
    
--J'ai crée ce site dans le cadre d'un exercice où il faut coder un site de 5 pages en utilisant un framework que l'on ne connait pas pour se familiariser avec celui-ci. J'ai choisi **Bootstrap v5.3**   
+-J'ai crée le frontend de ce site dans le cadre d'un exercice où il faut coder un site de 5 pages en utilisant un framework que l'on ne connait pas pour se familiariser avec celui-ci. J'ai choisi **Bootstrap v5.3**   
 -Ce site doit être composé de 5 pages.    
 1. Une page d'acceuil (*index*)    
 2. Une page de contact (*contact*)   
