@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Almarai';
-    src: url('font/Almarai-Bold.ttf') format('truetype');
+    src: url('font/Almarai-Regular.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: 'Almarai';
-    src: url('fonts/Almarai-Light.ttf') format('truetype');
+    src: url('font/Almarai-Regular.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: 'Almarai';
-    src: url('fonts/Almarai-ExtraBold.ttf') format('truetype');
+    src: url('font/Almarai-Regular.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
     font-display: swap;
